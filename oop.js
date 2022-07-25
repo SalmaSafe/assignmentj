@@ -51,22 +51,22 @@ class Farmer{
 }
 
 let farm1 = new Farmer();
-farm1.addFarm("123","Ishema","Umuhoza","0789415454", "KK 123 K");
-farm1.addFarm("023","Icyusa","Mugisha","0782444764", "KK 023 K");
-farm1.addFarm("003","Ikirezi","Kayitete","078223234", "KN 003 K");
+farm1.addFarm("35633303","Asmaa","Bare","0722766616", "KDD 123 K");
+farm1.addFarm("43565272","Shamsa","Salim","0782444764", "KBS 023 K");
+farm1.addFarm("96745212","Aaliya","Adam","0744831140", "KQB 003 K");
 console.log(farm1.farms);
 
 farm1.removeFarm("023");
 console.log(farm1.farms);
 
-farm1.updateFarm("003","004","Icyemezo","Teta","0799923234", "KN 004 K");
+farm1.updateFarm("003","004","Salma","Scott","0755523234", "KBQ 004 K");
 
 farm1.getFarm("004");
 
-farm1.addProduct("001","Eggs",20);
-farm1.addProduct("101","Milk",40);
-farm1.addProduct("110","Meat",30);
-farm1.addProduct("120","Ghee",10);
+farm1.addProduct("011","Eggs",20);
+farm1.addProduct("111","Milk",40);
+farm1.addProduct("120","Meat",30);
+farm1.addProduct("100","Oil",10);
 console.log(farm1.product);
 
 farm1.removeProduct("110");
